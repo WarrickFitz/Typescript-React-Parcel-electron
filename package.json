@@ -12,6 +12,7 @@
   "scripts": {
     "develop": "concurrently -r \"npm:type-check:watch\" \"npm:start\"",
     "start": "electron .",
+    "webdev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
     "prettify": "prettier --write './src/**/*.{ts,tsx}'",
     "test": "jest",
